@@ -1,12 +1,31 @@
 import './App.css';
-import Icons from './components/icons/Icons';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from '../pages/home/Home';
+import Account from '../pages/account/Account';
+import Welcome from '../pages/welcome/Welcome';
+import Form from '../pages/form/Form';
+import MenuPage from '../pages/menuPage/MenuPage';
+import Orders from '../pages/orders/Orders';
+import ManuListPage from '../pages/menuListPage/MenuListPage';
 
 function App() {
-  return(
+  return (
     <div>
-      <title>CAFETERIA</title>
-      <Icons />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Welcome />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/account" element={<Account />} />
+          <Route path='/form' element={<Form />} />
+          <Route path='/menu' element={<MenuPage />} />
+          <Route path='/orders' element={<Orders />} />
+          <Route path='/menulist' element={<ManuListPage />} />
+        </Routes>
+      </Router>
     </div>
+
   )
 }
 
