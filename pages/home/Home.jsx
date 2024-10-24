@@ -1,15 +1,15 @@
-import Header from "../../src/components/header/Header";
-import Footer from "../../src/components/footer/Footer";
+import SearchBar from "../../src/components/searchBar/SearchBar";
+import TabsBar from "../../src/components/tabsBar/tabsBar";
 import Offers from "../../src/components/offers/Offers";
 import './Home.css';
 
 function Home(){
     return(
         <div className="home-container">
-            <Header />
+            <SearchBar />
             <h1>Página de inicio</h1>
             <Offers />
-            <Footer />
+            <TabsBar />
         </div>
     )
 }

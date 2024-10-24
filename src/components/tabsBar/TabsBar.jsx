@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import './Footer.css'
+import './TabsBar.css'
 
-function Footer() {
+function TabsBar() {
     return (
         <div className="footer-container">
             <ul className='icons-container'>
@@ -13,4 +13,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default TabsBar

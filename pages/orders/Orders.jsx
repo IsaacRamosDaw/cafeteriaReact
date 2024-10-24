@@ -1,12 +1,12 @@
-import Header from "../../src/components/header/Header";
-import Footer from "../../src/components/footer/Footer";
+import SearchBar from "../../src/components/searchBar/SearchBar";
+import TabsBar from "../../src/components/tabsBar/tabsBar";
 
 function Orders(){
     return(
         <div>
-            <Header />
+            <SearchBar />
             <h1>Los pedidos</h1>
-            <Footer />
+            <TabsBar />
         </div>
     )
 }

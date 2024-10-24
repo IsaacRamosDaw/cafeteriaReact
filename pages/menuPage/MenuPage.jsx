@@ -1,14 +1,14 @@
 import Menu from '../../src/components/menu/Menu';
-import Header from '../../src/components/header/Header';
-import Footer from '../../src/components/footer/Footer';
+import SearchBar from '../../src/components/searchBar/SearchBar';
+import TabsBar from '../../src/components/tabsBar/tabsBar';
 
 function MenuPage(){
     return(
         <div className='menu-page-container'>
-            <Header />
+            <SearchBar />
             <h1>Página del menú</h1>
             <Menu />
-            <Footer />
+            <TabsBar />
         </div>
     )
 }

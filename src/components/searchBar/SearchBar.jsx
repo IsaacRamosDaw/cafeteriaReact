@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './SearchBar.css';
 
-function Header() {
+function SearchBar() {
     return (
         <div className='header-container'>
             <div className='search-container'>
@@ -14,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default SearchBar
