@@ -1,9 +1,15 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className='header-container'>
-            <h2>Barra de búsqueda</h2>
+            <div className='search-container'>
+                <input placeholder='Type to search...' />
+                <ul>
+                    <li><Link to="/account">Account</Link></li>
+                </ul>
+            </div>
         </div>
     )
 }
