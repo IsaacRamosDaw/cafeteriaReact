@@ -1,0 +1,15 @@
+.login-confirmed{
+    background-color: black;
+}
+
+button:focus{
+    outline: none;
+}
+
+button a{
+    color: #EB5E28;;
+}
+
+button a:hover{
+    color: #9b421f;;
+}
