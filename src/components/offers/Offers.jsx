@@ -1,3 +1,5 @@
+import './Offers.scss'
+
 function Offers(){
     return (
         <div>

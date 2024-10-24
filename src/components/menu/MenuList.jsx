@@ -1,3 +1,5 @@
+import './MenuList.scss'
+
 function MenuList(){
     return(
         <div>

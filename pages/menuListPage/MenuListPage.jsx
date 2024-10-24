@@ -1,5 +1,5 @@
 import MenuList from '../../src/components/menu/MenuList'
-
+import './MenuListPage.scss';
 function MenuListPage() {
     return (
         <div>

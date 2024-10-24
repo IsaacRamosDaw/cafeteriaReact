@@ -1,3 +1,5 @@
+import './Account.scss';
+
 function Account(){
     return(
         <div>

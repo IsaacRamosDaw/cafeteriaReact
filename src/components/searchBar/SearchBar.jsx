@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './SearchBar.css';
+import './SearchBar.scss';
 
 function SearchBar() {
     return (

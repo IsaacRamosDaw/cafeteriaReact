@@ -1,7 +1,7 @@
 import SearchBar from "../../src/components/searchBar/SearchBar";
 import TabsBar from "../../src/components/tabsBar/tabsBar";
 import Offers from "../../src/components/offers/Offers";
-import './Home.css';
+import './Home.scss';
 
 function Home(){
     return(

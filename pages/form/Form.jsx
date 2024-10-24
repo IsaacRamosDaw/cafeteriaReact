@@ -1,4 +1,4 @@
-import './Form.css';
+import './Form.scss';
 import React from "react";
 
 function Form() {

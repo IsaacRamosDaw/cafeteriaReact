@@ -1,6 +1,6 @@
 import SearchBar from "../../src/components/searchBar/SearchBar";
 import TabsBar from "../../src/components/tabsBar/tabsBar";
-
+import './Orders.scss';
 function Orders(){
     return(
         <div>
